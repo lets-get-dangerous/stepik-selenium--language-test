@@ -8,5 +8,5 @@
 
 Пример запуска теста:
 
-    pytest -s -v --tb=short --browser_name=chrome --language=es test_items.py
-    pytest -s -v --language=es
+    pytest -sv --tb=short --browser_name=chrome --language=es test_items.py
+    pytest  --language=es
