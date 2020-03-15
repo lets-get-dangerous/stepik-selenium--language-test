@@ -12,7 +12,7 @@ with open("links.txt", 'r') as file:
 
 
 @pytest.mark.parametrize( "link", links)
-def test_button_add_to_basket_must_be_visible(browser, link):
+def test_find__button_add_to_basket(browser, link):
     browser.get(link)
 
     # расскоментируйте строку ниже для визуальной проверки
